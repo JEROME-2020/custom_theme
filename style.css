@@ -31,3 +31,8 @@ Jerome_custom_theme is distributed under the terms of the GNU GPL.
   text-decoration: none;
   padding: 15px;
 }
+.jv-sidebar{
+  background: rgb(103, 102, 102);
+  width: 500px;
+  height: 100px;
+}

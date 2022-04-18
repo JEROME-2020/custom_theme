@@ -53,13 +53,23 @@ function jerome_custom_widget_area(){
             'after_title'=>'',
             'before_widget'=>'',
             'after_widget'=>'',
-        ),
-        array(
             'name'=>'sidebar Area',
-            'id'=>'side-bar1',
+            'id'=>'sidebar-1',
             'description'=>'sidebar Widget Area'
         )
     );
+    register_sidebar(
+        array(
+            'before_title'=>'',
+            'after_title'=>'',
+            'before_widget'=>'',
+            'after_widget'=>'',
+            'name'=>'footer sidebar',
+            'id'=>'sidebar-2',
+            'description'=>'Footer sidebar'
+        ),
+    );
+    
 }
 
 add_action('widgets_init', 'jerome_custom_widget_area');

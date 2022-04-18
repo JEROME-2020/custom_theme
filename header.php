@@ -40,11 +40,17 @@
             )
           );      
       ?>
-        <form>
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
-        ?>
+      
+      <?php get_search_form();?>
 
       </div>
     </div>
   </nav>
+<br><br>
+  <section class="container jv-sidebar">
+    <?php
+      dynamic_sidebar('sidebar-1');
+    
+    ?>
+
+  </section>
