@@ -1,0 +1,33 @@
+/*
+Theme Name: Jerome_custom_theme
+Theme URI: N/A
+Author: Jerome L. Valdez
+Author URI: N/A
+Description: Eto ang theme na sobrang ganda kase Pogi ang gumawa
+Version: 1.0
+License URI: N/A
+Text Domain: Jerome_custom_theme
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+Jerome_custom_theme WordPress Theme, (C) 2022 
+Jerome_custom_theme is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ *add your custom style bellow
+*/
+
+.jv-h1{
+  color: red;
+  font-size: 100px;
+}
+.jv-h4{
+  color: #fff;
+  font-size: 12px;
+}
+
+.nav-new a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+}
